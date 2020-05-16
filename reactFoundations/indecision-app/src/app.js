@@ -1,13 +1,7 @@
-"use strict";
-
 console.log("App.js is running");
 
 //JSX-Javascript XML
-var template = React.createElement(
-  "p",
-  null,
-  "This is JSX code with watch!"
-);
+var template = <p>This is JSX code with watch!</p>;
 
 var appRoot = document.getElementById("app");
 
